@@ -5,6 +5,11 @@ tags: [javascript, haskell, currying]
 categories: [development]
 ---
 
+<aside>
+<img src="/assets/currying.jpg">
+<p>Photo by <a href="http://www.flickr.com/photos/flavorrelish">flavorrelish</a></p>
+</aside>
+
 I've been learning Haskell from the fantastic online book [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/) and there's a concept in the language that I've just started to wrap my head around.
 
 In Haskell, every function formally only takes one parameter. The syntactic sweetness of Haskell does its best to hide the user from this fact.
