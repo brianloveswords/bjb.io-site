@@ -75,6 +75,13 @@ pre {
   padding: 3px 5px 7px;
   margin: 0;
 }
+.wrapper header:first-child {
+  margin: 0px;
+}
+
+.wrapper header {
+  margin: 32px 0 0;
+}
 
 .wrapper {
   padding: 10px;
@@ -116,4 +123,30 @@ article aside p {
   font-size: 0.8em;
   text-align: right;
   opacity: 0.7;
+}
+.about ul {
+  margin: 0;
+  padding: 0;
+}
+.about li {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  list-style: none;
+}
+.about li:before {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  font-size: 0.7em;
+  content: "★";
+  padding: 0 5px 2px 0;
+  position: relative;
+  top: -1px;
+}
+.about li:hover:before {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  color: #e30;
 }
