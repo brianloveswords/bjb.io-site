@@ -62,6 +62,7 @@ pre {
   border-bottom: none;
   font-size: 3.2em;
   display: inline;
+  font-weight: normal;
 }
 
 .masthead h2 {
