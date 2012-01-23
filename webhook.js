@@ -56,7 +56,7 @@ var webhook_server = function(port, branch) {
  }).listen(port);
 }
 var pull_new_code = function(callback) {
-  var git = spawn('git', ['pull', 'deploy', 'master']);
+  var git = spawn('git', ['pull', 'origin', 'master']);
   var preface = 'git '.magenta
   git.stdout.on('data', function(data){
     process.stdout.write(preface);
