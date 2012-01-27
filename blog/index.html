@@ -3,6 +3,7 @@ layout: default
 title: Brian J Brennan loves the internet
 ---
 {% for post in site.posts %}
+{% if post.published %}
 <header>
   <a href='{{ post.url }}'><h2>{{ post.title }}</h2></a>
 </header>
@@ -10,4 +11,5 @@ title: Brian J Brennan loves the internet
 <article class='content'>
   {{ post.content }}
 </article>
+{% endif %}
 {% endfor %}

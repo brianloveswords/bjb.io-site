@@ -3,6 +3,7 @@ layout: post
 title: Currying and Partial Application
 tags: [javascript, haskell, currying]
 categories: [development]
+published: true
 ---
 
 <aside>
