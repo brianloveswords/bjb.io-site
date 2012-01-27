@@ -6,7 +6,7 @@ published: true
 ---
 
 <aside>
-<img src="/assets/pawn-tattoo.jpg">
+<img src="/assets/pawn-tattoo.jpg" alt="Shadiest tattoo parlor ever" title="Free Hep-C with every purchase">
 <p>Fulton Mall, Downtown Brooklyn.</p>
 </aside>
 
