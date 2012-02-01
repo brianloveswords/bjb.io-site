@@ -94,9 +94,9 @@ latest version of VirtualBox and the new lucid32 box. It works totally fine if
 I do `npm install` in any folder other than the one shared from the host.
 
 I'll save you a painful recount of all the crazy shit I went through to find
-this out, but I eventually learned that everything comes down to symlinks and
+this out but I eventually learned that everything comes down to symlinks and
 shared directories. I realized that npm was failing at the points when it was
-trying to symlink binaries from the packages into the node_modules/bin folder.
+trying to symlink binaries from the packages into the `node_modules/bin` folder.
 
 Reading through
 [this three year old ticket](https://www.virtualbox.org/ticket/818), it seems
@@ -107,17 +107,17 @@ latest version must have regressed.
 ## All is not lost
 
 After admitting that I was never going to be able to install the modules in
-app directory, the fix was remarkably simple: install packages one directory
+app directory the fix was remarkably simple: install packages one directory
 up on the guest system. When fufilling a `require` statement node's module
 loader ascends the directory tree searching for `node_modules`folders
 containing the requested module.
 
-In one sense, I'm glad it didn't work right the first time. In trying to
-figure out what was wrong, I ended up rewriting my puppet manifests a number
+In one sense I'm glad it didn't work right the first time. In trying to
+figure out what was wrong I ended up rewriting my puppet manifests a number
 of times, making things faster and better. I whittled down a nearly ten minute
 spin up to a three minute spin up.
 
-But In the other sense, I wish figuring out this was all a VirtualBox
+But In the other sense I wish figuring out this was all a VirtualBox
 regression didn't take all fucking day.
 
 <footer>
