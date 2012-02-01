@@ -36,7 +36,7 @@ that it's content-length doesn't exceed a certain size. If any of the
 assertions fail, I want to immediately stop executing and hit the callback
 with the error.
 
-## Try..catches all the way down
+## Try...catches all the way down
 When testing this, I was running into a serious issue: Errors weren't getting
 trapped by the `try...catch` block and instead were bubbling up to the very
 top, making the process explode. Why is that?
