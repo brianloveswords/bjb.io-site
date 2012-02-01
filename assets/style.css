@@ -43,6 +43,14 @@ pre {
   padding: 4px 0 0;
 }
 
+code {
+  font-size: 0.8em;
+  background: #eee;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+}
+
 .masthead a {
   color: #fff;
 }
@@ -100,8 +108,10 @@ pre {
 
 .content footer {
   border-top: 1px dotted #ddd;
-  color: #888;
+  color: #aaa;
   text-align: right;
+  font-family: 'Passion One', cursive;
+  font-size: 0.8em;
 }
 
 footer.by {
@@ -118,14 +128,46 @@ article aside {
 article img {
   border-radius: 3px;
   width: 600px;
+  box-shadow: 1px 1px 5px 2px #ddd;
+}
+article aside.no-stretch img {
+  border-radius: 3px;
+  width: inherit;
 }
 
 article aside p {
+  -webkit-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+       -o-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
   margin: 0;
   padding: 0;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: right;
+  opacity: 0.3;
+  font-family: 'Patua One', cursive;
+}
+article aside:hover p {
+  -webkit-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+       -o-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
+  background: #eee;
   opacity: 0.7;
+}
+
+article h2 {
+  font-size: 1.2em;
+}
+
+#disqus_thread {
+  padding: 0 20px;
+}
+
+#dsq-global-toolbar a:hover {
+  border: none;
 }
 
 .about ul {
@@ -135,15 +177,20 @@ article aside p {
 
 .about li {
   -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+       -o-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
+  
   list-style: none;
 }
 
 .about li:before {
   -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+       -o-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
   font-size: 0.7em;
   content: "★";
   padding: 0 5px 2px 0;
@@ -153,7 +200,9 @@ article aside p {
 
 .about li:hover:before {
   -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+       -o-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
   color: #e30;
 }
