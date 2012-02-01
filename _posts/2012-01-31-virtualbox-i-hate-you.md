@@ -76,7 +76,7 @@ the guest VM. The lucid32 box that vagrant provides has version 4.1.0 and the
 latest VirtualBox is 4.1.8.
 
 *By the way*,  it's fucking unbelievable how hard it is to track down VBoxGuestAdditions.iso.
-[getting a copy here](https://launchpad.net/ubuntu/+source/virtualbox-guest-additions-iso)
+I ended up [getting a copy here](https://launchpad.net/ubuntu/+source/virtualbox-guest-additions-iso)
 by digging into the package itself.
 
 **Update**:

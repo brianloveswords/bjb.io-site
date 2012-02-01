@@ -241,7 +241,32 @@ article h2 {
   text-shadow:  #fff 1px 1px 2px;
 }
  
-
+blockquote {
+  position: relative;
+  z-index: 2;
+  font-size: 1.0em;
+  color: #111;
+  text-shadow: #fff 1px 1px 1px;
+  text-align: justify;
+}
+blockquote:before {
+  content: "“";
+  position: absolute;
+  font-size: 3em;
+  left: -0.4em;
+  top: 0.1em;
+  z-index: 1;
+  text-shadow: #fff 1px 1px 1px;
+}
+blockquote:after {
+  content: "”";
+  position: absolute;
+  font-size: 3em;
+  right: -0.4em;
+  bottom: -0.1em;
+  z-index: 1;
+  text-shadow: #fff 1px 1px 1px;
+}
 
 .hll { background-color: #ffffcc }
 .c { color: #999988; font-style: italic } /* Comment */
