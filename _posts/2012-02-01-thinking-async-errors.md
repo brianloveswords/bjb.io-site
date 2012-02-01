@@ -140,11 +140,22 @@ function for execution. Barring syntax or type errors, it cannot fail. When
 the callback gets executed on the next tick it is no longer executing in the
 context of a `try` block and the error will bubble through.
 
-## Maybe throwing errors around isn't such a good idea
+## Takeaways
 
-In general you should not be throwing errors in callback-style
-functions. Callbacks in the standard library are designed to take two or more
-arguments where the first is always either null or
+* You can't always tell if a callback-style function is asynchronous -- only
+  those that call `setTimeout` or `process.nextTick` to defer execution are
+  truly async.
+
+* When `catch`ing errors from asynchronous functions you have to wrap the body
+  of the callback, not the calling function.
+
+* This is something you have to worry about if you are using syncronous
+  functions in your callbacks. All of the synchronous methods in the standard
+  library throw errors.
+
+As an aside, when writing your own methods, you should not be throwing errors
+in callback-style functions whether they are truly async or not. By
+convention, the first argument to a callback is always either null or
 [an error object](http://www.devthought.com/2011/12/22/a-string-is-not-an-error/). Functions
 which return a value directly are free to throw errors, as they do in the
 standard library.
