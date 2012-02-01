@@ -99,7 +99,7 @@ These were my results when running it:
 
 `thrower` and `process.nextTick` both take one parameter, a callback. To
 understand why an error thrown in the callback will bubble in the latter, it's
-important to undestand how `process.nextTick` interacts with the event
+important to understand how `process.nextTick` interacts with the event
 loop. From the docs,
 
 > On the next loop around the event loop call this callback. This is *not* a simple alias to `setTimeout(fn, 0)`, it's much more efficient.
@@ -149,7 +149,7 @@ context of a `try` block and the error will bubble through.
 * When `catch`ing errors from asynchronous functions you have to wrap the body
   of the callback, not the calling function.
 
-* This is something you have to worry about if you are using syncronous
+* This is something you have to worry about if you are using synchronous
   functions in your callbacks. All of the synchronous methods in the standard
   library throw errors.
 
