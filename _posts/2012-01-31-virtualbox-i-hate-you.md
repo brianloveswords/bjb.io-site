@@ -67,7 +67,7 @@ I tried an experiment: In the VM I made a fresh clone and did npm
 install. This worked without issue.
 
 <aside class='no-stretch'>
-<img src=" http://cl.ly/1C2D0E3P1s3M0k1Z2t0g/Screen%20Shot%202012-01-31%20at%205.54.01%20PM.png">
+<img src="/assets/guest-additions.png">
 </aside>
  
 So maybe the VirtualBox Guest Additions for my VM were fucking everything
@@ -81,7 +81,7 @@ by digging into the package itself.
 
 **Update**:
 <aside class='no-stretch'>
-<img src="http://cl.ly/2T3T1Q1P2J3K2x3W2c1y/Screen%20Shot%202012-01-31%20at%205.37.31%20PM.png">
+<img src="/assets/guest-additions-iso.png">
 </aside>
 
 Anyway after installing and restarting the VM, I tried to do `npm install` and
