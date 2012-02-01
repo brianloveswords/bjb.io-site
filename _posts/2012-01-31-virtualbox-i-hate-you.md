@@ -1,7 +1,7 @@
 ---
 layout: post
 title: God Dammit, VirtualBox
-tags: [vm]
+tags: [nodejs, vagrant, puppet, openbadges]
 categories: [development]
 published: true
 ---
@@ -48,8 +48,8 @@ I wanted to do a true front-to-back test, as if I just installed VirtualBox
 and Vagrant. So I uninstalled and then reinstalled the latest versions of
 both, added latest lucid32 box and tried again.
 
-The system spun up and got provisioned like a champ, but when I went to `npm
-install` my app dependencies things got fucked:
+The system spun up and got provisioned like a champ but when `npm
+install`ed my app dependencies, things got fucked:
 
 <aside>
 <img src="/assets/npm-fucked.png">
