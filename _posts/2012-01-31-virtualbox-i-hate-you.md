@@ -121,5 +121,5 @@ But In the other sense, I wish figuring out this was all a VirtualBox
 regression didn't take all fucking day.
 
 <footer>
-Rage-posted sometime around midnight on January 31th, 2012.
+Ragefully written sometime around midnight on January 31th, 2012.
 </footer>
