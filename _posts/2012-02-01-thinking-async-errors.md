@@ -105,7 +105,7 @@ loop. From the docs,
 > On the next loop around the event loop call this callback. This is *not* a simple alias to `setTimeout(fn, 0)`, it's much more efficient.
 
 User-written functions do not have the ability to directly schedule things on
-the event loop\*. You could imagine the schedule looking like this immediately
+the event loop. You could imagine the schedule looking like this immediately
 after each function is invoked:
 
 <pre>
@@ -128,7 +128,7 @@ after each function is invoked:
 1) execute callback
 </pre>
 
-## You can't trap the future
+## You can't stop the future
 
 A `try` block will only capture errors that are thrown in the current
 tick. `thrower` doesn't reach a completed state until the callback is executed
