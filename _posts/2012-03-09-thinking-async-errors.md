@@ -3,6 +3,7 @@ layout: post
 title: "Thinking Async: Errors"
 tags: [nodejs, errors, async]
 categories: [development]
+published: true
 ---
 <aside>
 <img src="/assets/error-chain.jpg">
