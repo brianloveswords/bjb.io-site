@@ -3,7 +3,7 @@ layout: post
 title: "An argument against subclassing <code>Error</code>"
 tags: [nodejs, errors, inheritance]
 categories: [development]
-published: false
+published: true
 ---
 <aside>
   <img src="http://farm8.staticflickr.com/7042/6926632251_acee70f4c5_z.jpg">
