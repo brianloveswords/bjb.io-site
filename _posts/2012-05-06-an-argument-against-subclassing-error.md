@@ -204,3 +204,7 @@ CustomError.prototype.__proto__ = Error.prototype;
 {% endhighlight %}
 
 but I encourage you to think about whether or not it’s worth the complexity.
+
+<footer>
+Composed on March 6th, 2012.
+</footer>
