@@ -48,10 +48,10 @@ assert.ok(err instanceof MongooseError);
 util.isError(err); // === false
 {% endhighlight %}
 
-This seemed like a legitimate shortcoming of `util.isError` so @cowboy
-[raised an issue on node](https://github.com/joyent/node/issues/3212), but the
-author's intention for `util.isError` is extremely accuracy so the issue was
-closed. While closing it @TooTallNate suggested an alternative way to subclass
+This seemed like a legitimate shortcoming of `util.isError` so **@cowboy**
+[raised an issue on node](https://github.com/joyent/node/issues/3212), but
+node's intention for `util.isError` is extremely accuracy so the issue was
+closed. While closing it **@TooTallNate** suggested an alternative way to subclass
 error such that the internal class gets set to `[class Error]` (which I will
 adapt to fit our example):
 
@@ -78,7 +78,7 @@ But there was something else in his response that got me thinking.
 
 ## Does subclassing `Error` really add much value in the end?
 
-After thinking about it I realized that I agree with @TooTallNate that it
+After thinking about it I realized that I agree with **@TooTallNate** that it
 really doesn’t add much value, especially considering how unintuitive it is to
 get it right.
 
