@@ -76,7 +76,7 @@ util.isError(err); // === true
 
 But there was something else in his response that got me thinking.
 
-## Does subclassing `Error` really add much value in the end?
+## Does subclassing `Error` really add much value?
 
 After thinking about it I realized that I agree with **@TooTallNate** that it
 really doesn’t add much value, especially considering how unintuitive it is to
