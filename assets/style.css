@@ -1,3 +1,7 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   background: url('/assets/dark_geometric.png');
   color: #efefef;
