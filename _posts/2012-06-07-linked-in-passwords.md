@@ -25,8 +25,8 @@ from LastPass for this testing rather than
 it was much faster to test a lot of passwords in a row.
 
 This is not comprehensive in any category (I just messed around until I
-got bored) and this isn't meant to prove anything; we already know that
-people use really bad (or in some cases, awesome) passwords.
+got bored) and this isn't meant to prove anything;
+ [we already know that people use really bad passwords](http://www.youtube.com/watch?v=a6iW-8xPw3k).
 
 ### The Most Obvious
 - "linkedin"
