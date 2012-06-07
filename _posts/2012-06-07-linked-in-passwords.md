@@ -20,9 +20,9 @@ this post is about having fun guessing some of the leaked passwords.
 
 I used the
 [LinkedIn compromised password checker](https://lastpass.com/linkedin/)
-from LastPass for this testing rather than the
-[leakedin](http://leakedin.org/) because being all ajaxy and web 2.0 it
-was much faster to test a lot of passwords in a row.
+from LastPass for this testing rather than
+[leakedin.org](http://leakedin.org/) because being all ajaxy and web 2.0
+it was much faster to test a lot of passwords in a row.
 
 This is not comprehensive in any category (I just messed around until I
 got bored) and this isn't meant to prove anything; we already know that
